@@ -115,5 +115,11 @@ console.log(b1.hasOwnProperty('x')); //undefined
 //b1-in protosu a1 dir
 
 
+//
+const students = { Ali: 45, Leyla: 82, John: 67, Sara: 90, Mike: 78 };
+//{ Sara: 90, Leyla: 82, Mike: 78 }
+//  console.log(Object.fromEntries(Object.entries(students).filter(([key,value])=>value>70)
+// .sort((b,a)=>a[1]-b[1])))
+
 
 
